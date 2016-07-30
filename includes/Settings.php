@@ -3,21 +3,17 @@
  * Author: MurDaD
  * Author URL: https://github.com/MurDaD
  *
- * Description: Settings. Registry template
+ * Description: Settings.
+ * Type: Registry
  */
 
 class Settings
 {
     /**
-     * Default settings balues
+     * Default settings values
      * @var mixed[]
      */
-    protected static $data = [
-        'db_host' => 'localhost',
-        'db_user' => 'users-test',
-        'db_password' => 'qwert123',
-        'db_database' => 'users-test'
-    ];
+    protected static $data = [];
 
 
     /**
